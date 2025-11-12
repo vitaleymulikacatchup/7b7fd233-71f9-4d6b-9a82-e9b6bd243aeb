@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -85,6 +85,7 @@ export default function Home() {
           tag="Our Craft"
           textboxLayout="default"
           animationType="slide-up"
+          gridVariant="uniform-all-items-equal"
           features={[
             {
               id: "01",
